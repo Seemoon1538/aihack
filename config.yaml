@@ -1,0 +1,40 @@
+# config.yaml — v15.2 — АБСОЛЮТ
+global:
+  log_level: INFO
+  max_threads: 50
+  timeout: 30
+  pause_interval: 600
+
+target: "http://omega1.at/FUZZ"
+lhost: "192.168.1.100"
+lport: 4444
+
+attacks:
+  dump_db: true
+  evolve_ai: true
+  report:
+    json: true
+    md: true
+    html: true
+    pdf: true
+
+ai:
+  brain_path: "ai_brain.json"
+  predictor_model: "ai/model_vuln.pth"
+  payload_db: "payloads.db"
+
+tor:
+  enabled: false
+  socks_port: 9050
+  control_port: 9051
+  renew_identity: true
+
+waf_bypass:
+  enabled: true
+  delay: 1.5
+  user_agents: "rotating"
+  headers:
+    - "X-Forwarded-For: 127.0.0.1"
+    - "X-Originating-IP: 127.0.0.1"
+    - "X-Remote-IP: 127.0.0.1"
+    - "Referer: https://google.com"

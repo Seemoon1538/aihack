@@ -1,0 +1,14 @@
+2025-11-05 12:16:13,145 - NeuralHunter - INFO - [bold magenta]НЕЙРОННЫЙ ЛОГЕР v10.1 АКТИВИРОВАН[/bold magenta]
+2025-11-05 12:16:13,149 - NeuralHunter - WARNING - Модель не найдена — случайные веса.
+2025-11-05 12:16:13,150 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: ЦЕЛЬ: http://omega1.at/FUZZ[/bold red]
+2025-11-05 12:16:13,152 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: LHOST: 192.168.1.100:4444[/bold red]
+2025-11-05 12:16:15,060 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ → 200
+2025-11-05 12:16:15,063 - NeuralHunter - INFO - PORT SCAN → http://omega1.at/FUZZ
+2025-11-05 12:16:15,162 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 21
+2025-11-05 12:16:15,165 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 22
+2025-11-05 12:16:15,169 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 80
+2025-11-05 12:16:15,172 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 443
+2025-11-05 12:16:15,176 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8080
+2025-11-05 12:16:15,179 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8443
+2025-11-05 12:16:15,183 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 3306
+2025-11-05 12:16:15,186 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 5432

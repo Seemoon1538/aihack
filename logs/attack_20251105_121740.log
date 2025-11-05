@@ -1,0 +1,6 @@
+2025-11-05 12:17:40,021 - NeuralHunter - INFO - [bold magenta]НЕЙРОННЫЙ ЛОГЕР v10.1 АКТИВИРОВАН[/bold magenta]
+2025-11-05 12:17:40,045 - NeuralHunter - WARNING - Модель не найдена — случайные веса.
+2025-11-05 12:17:40,047 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: ЦЕЛЬ: http://omega1.at/FUZZ[/bold red]
+2025-11-05 12:17:40,048 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: LHOST: 192.168.1.100:4444[/bold red]
+2025-11-05 12:17:40,049 - NeuralHunter - ERROR - Предиктор ошибка: 'float' object is not callable
+2025-11-05 12:17:40,574 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ → 200

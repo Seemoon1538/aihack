@@ -1,0 +1,17 @@
+sequence:
+  - attack: port_scan
+    target: "{{target}}"
+    options: {}
+  - attack: xss
+    target: "{{target}}/wp-login.php"
+    options: {payloads: "wp_specific_xss.json"}
+  - attack: db_hack
+    target: "{{target}}/wp-admin/admin-ajax.php"
+    options: {injection_types: ['sqli']}
+  - attack: csrf
+    target: "{{target}}/wp-admin/post.php"
+    options: {mode: "noauth"}
+report:
+  format: pdf
+  include_standards: true
+evolve: false

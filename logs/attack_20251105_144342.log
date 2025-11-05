@@ -1,0 +1,51 @@
+2025-11-05 14:43:42,509 - NeuralHunter - INFO - [bold magenta]НЕЙРОННЫЙ ЛОГЕР v10.1 АКТИВИРОВАН[/bold magenta]
+2025-11-05 14:43:42,511 - NeuralHunter - INFO - НЕЙРОННЫЙ ЛОГЕР v10.1 
+                  АКТИВИРОВАН
+2025-11-05 14:43:42,534 - NeuralHunter - WARNING - Модель не найдена — случайные веса.
+2025-11-05 14:43:42,536 - NeuralHunter - CRITICAL - БРЕШЬ: ЦЕЛЬ: 
+                  http://omega1.at/FUZZ
+2025-11-05 14:43:42,537 - NeuralHunter - CRITICAL - БРЕШЬ: LHOST: 
+                  192.168.1.100:4444
+2025-11-05 14:43:42,538 - NeuralHunter - ERROR - Предиктор ошибка: 'float' object is not callable
+2025-11-05 14:43:42,931 - NeuralHunter - INFO - [GET] http://omega1.at/FUZZ → 200
+2025-11-05 14:43:42,933 - NeuralHunter - INFO - PORT SCAN → http://omega1.at/FUZZ
+2025-11-05 14:43:42,995 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 21
+2025-11-05 14:43:42,997 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 22
+2025-11-05 14:43:42,999 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 80
+2025-11-05 14:43:43,000 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 443
+2025-11-05 14:43:43,001 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8080
+2025-11-05 14:43:43,003 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 8443
+2025-11-05 14:43:43,005 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 3306
+2025-11-05 14:43:43,006 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 5432
+2025-11-05 14:43:43,008 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 6379
+2025-11-05 14:43:43,009 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 27017
+2025-11-05 14:43:43,010 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 9200
+2025-11-05 14:43:43,012 - NeuralHunter - INFO - ПОРТ ОТКРЫТ: 11211
+2025-11-05 14:43:43,016 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MYSQL_BRUTEFORCE[/bold cyan]
+2025-11-05 14:43:43,017 - NeuralHunter - INFO - MySQL BRUTEFORCE → omega1.at:3306
+2025-11-05 14:44:16,463 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: POSTGRES_BRUTEFORCE[/bold cyan]
+2025-11-05 14:44:16,465 - NeuralHunter - INFO - POSTGRES BRUTEFORCE → omega1.at:5432
+2025-11-05 14:45:08,705 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: SSH_BRUTEFORCE[/bold cyan]
+2025-11-05 14:45:08,707 - NeuralHunter - INFO - SSH BRUTEFORCE → omega1.at:22
+2025-11-05 14:46:09,856 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: FTP_BRUTEFORCE[/bold cyan]
+2025-11-05 14:46:09,857 - NeuralHunter - INFO - FTP BRUTEFORCE → omega1.at:21
+2025-11-05 14:47:30,237 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: REDIS_BRUTEFORCE[/bold cyan]
+2025-11-05 14:47:30,238 - NeuralHunter - INFO - REDIS BRUTEFORCE → omega1.at:6379
+2025-11-05 14:47:32,650 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MONGODB_BRUTEFORCE[/bold cyan]
+2025-11-05 14:47:32,652 - NeuralHunter - INFO - MONGODB BRUTEFORCE → omega1.at:27017
+2025-11-05 14:47:36,111 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: ELASTICSEARCH_BRUTEFORCE[/bold cyan]
+2025-11-05 14:47:36,113 - NeuralHunter - INFO - ELASTICSEARCH → http://omega1.at:9200
+2025-11-05 14:47:38,301 - NeuralHunter - INFO - [bold cyan]ИИ: АВТО-АТАКА: MEMCACHED_BRUTEFORCE[/bold cyan]
+2025-11-05 14:47:38,302 - NeuralHunter - INFO - MEMCACHED → omega1.at:11211
+2025-11-05 14:47:38,304 - NeuralHunter - INFO - SQL INJECTION → http://omega1.at/FUZZ
+2025-11-05 14:47:38,305 - NeuralHunter - ERROR - SQLi ошибка: 'float' object is not callable
+2025-11-05 14:47:38,307 - NeuralHunter - ERROR - SQLi ошибка: 'float' object is not callable
+2025-11-05 14:47:38,308 - NeuralHunter - ERROR - SQLi ошибка: 'float' object is not callable
+2025-11-05 14:47:38,309 - NeuralHunter - ERROR - SQLi ошибка: 'float' object is not callable
+2025-11-05 14:47:38,310 - NeuralHunter - ERROR - SQLi ошибка: 'float' object is not callable
+2025-11-05 14:47:38,311 - NeuralHunter - INFO - XSS → http://omega1.at/FUZZ
+2025-11-05 14:47:38,312 - NeuralHunter - INFO - SSRF → http://omega1.at/FUZZ
+2025-11-05 14:47:38,313 - NeuralHunter - INFO - RCE → http://omega1.at/FUZZ
+2025-11-05 14:47:38,314 - NeuralHunter - WARNING - DDoS — только для тестов
+2025-11-05 14:47:38,341 - NeuralHunter - CRITICAL - JSON: reports/autopsy_1762343258.json
+2025-11-05 14:47:38,343 - NeuralHunter - CRITICAL - MD: reports/autopsy_1762343258.md
