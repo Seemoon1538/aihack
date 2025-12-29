@@ -1,8 +1,6 @@
 # AIHACK v15.7 — AI-Powered Penetration Testing Framework
 
 > **21 атака | ИИ-обучение | Автоматический отчёт | Proof-of-Concept**  
-> **Разработчик:** [Твоё Имя] — Tech Lead | AI | Pentest | Blockchain  
-> **GitHub:** [github.com/Seemoon1538/aihack](https://github.com/Seemoon1538/aihack)
 
 ---
 
@@ -13,11 +11,9 @@
 - Атакует 16+ векторами
 - **Учится** на успешных атаках
 - Генерирует **профессиональный отчёт** с PoC
-
 > **Цель:** автоматизировать рутинные проверки безопасности с помощью ИИ.
 
 ---
-
 
 
 ## Возможности
