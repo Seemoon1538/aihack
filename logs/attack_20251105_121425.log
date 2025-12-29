@@ -1,4 +1,0 @@
-2025-11-05 12:14:25,794 - NeuralHunter - INFO - [bold magenta]НЕЙРОННЫЙ ЛОГЕР v10.1 АКТИВИРОВАН[/bold magenta]
-2025-11-05 12:14:25,836 - NeuralHunter - WARNING - Модель не найдена — случайные веса.
-2025-11-05 12:14:25,838 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: ЦЕЛЬ: http://omega1.at/FUZZ[/bold red]
-2025-11-05 12:14:25,839 - NeuralHunter - CRITICAL - [bold red]БРЕШЬ: LHOST: 192.168.1.100:4444[/bold red]
