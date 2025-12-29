@@ -1,4 +1,4 @@
-# src/attacks/ftp_bruteforce.py — v15.3
+
 import asyncio
 from ftplib import FTP
 from typing import Dict, Any

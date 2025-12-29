@@ -1,4 +1,4 @@
-# src/ai/token_patterns.py — v16.0
+
 TOKENS = {
     "jwt": {
         "regex": r"ey[A-Za-z0-9-_=]+\.ey[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*",

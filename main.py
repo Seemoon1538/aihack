@@ -1,4 +1,3 @@
-# main.py — v15.5.2 — ПОЛНЫЙ, СТАБИЛЬНЫЙ
 import asyncio
 import argparse
 import yaml
@@ -19,9 +18,9 @@ async def main():
         config = yaml.safe_load(f)
 
     logger = RealTimeLogger()
-    logger.info("НЕЙРОННЫЙ ЛОГЕР v10.1 \n                  АКТИВИРОВАН")
+    logger.info("НЕЙРОННЫЙ ЛОГЕР v10.1 \n АКТИВИРОВАН")
 
-    # ФИКС: NeuralBrain принимает ТОЛЬКО config
+    
     brain = NeuralBrain(config)
     brain.restore()
 
@@ -45,7 +44,7 @@ async def main():
         logger.error(f"КРИТИЧЕСКАЯ ОШИБКА: {e}")
         results = []
 
-    # ФИКС: ПЕРЕДАЁМ logger
+   
     autopsy = NeuralAutopsy(results, target, config, logger)
     autopsy.generate()
 

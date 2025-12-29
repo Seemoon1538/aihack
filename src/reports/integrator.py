@@ -14,12 +14,12 @@ class Integrator:
         """Proxy traffic through Burp for passive scan"""
         session = requests.Session()
         session.proxies = self.burp_proxy
-        # Example: Send a request to trigger scan
+        
         resp = session.get(report_data['target'])
         self.logger.info(f"Proxied through Burp: {resp.status_code}")
-        # Burp API: If Burp has REST API enabled, POST /scan
+        
         try:
-            burp_api = "http://127.0.0.1:8080"  # Assume
+            burp_api = "http://127.0.0.1:8080"  
             requests.post(f"{burp_api}/v0.1/scan", json=report_data)
         except:
             self.logger.warning("Burp API not available; using proxy only.")
@@ -27,9 +27,9 @@ class Integrator:
     def send_to_zap(self, report_data: Dict):
         """ZAP API integration"""
         headers = {'Accept': 'application/json'}
-        # Start spider/scan
+        
         spider_id = requests.post(f"{self.zap_url}/spider/scan", json={'url': report_data['target']}, headers=headers).json()['scan']
-        # Wait for completion (poll)
+        
         import time
         while True:
             status = requests.get(f"{self.zap_url}/spider/status/{spider_id}", headers=headers).json()['status']

@@ -1,4 +1,4 @@
-# src/attacks/postgres_bruteforce.py — v15.4
+
 import asyncio
 import asyncpg
 from typing import Dict, Any

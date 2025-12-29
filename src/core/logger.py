@@ -1,4 +1,4 @@
-# src/core/logger.py — v10.1 — НЕЙРОННЫЙ ЛОГЕР
+
 import logging
 import sys
 from datetime import datetime
@@ -22,7 +22,7 @@ class RealTimeLogger:
         self.level = getattr(logging, level.upper(), logging.INFO)
         self.highlighter = ReprHighlighter()
         
-        # === Rich Handler для консоли ===
+       
         rich_handler = RichHandler(
             console=console,
             show_time=True,
@@ -34,14 +34,14 @@ class RealTimeLogger:
         )
         rich_handler.setFormatter(logging.Formatter('%(message)s', datefmt='%H:%M:%S'))
         
-        # === Логгер ===
+       
         self.logger = logging.getLogger('NeuralHunter')
         self.logger.setLevel(self.level)
         self.logger.handlers.clear()  # Чистим дубли
         self.logger.addHandler(rich_handler)
         
-        # === Файловый лог ===
-        if log_file or True:  # Всегда пишем в файл
+         
+        if log_file or True:  
             log_dir = Path('logs')
             log_dir.mkdir(exist_ok=True)
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')

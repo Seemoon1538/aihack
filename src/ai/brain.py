@@ -1,4 +1,4 @@
-# src/ai/brain.py — v15.5.2 — ПОЛНЫЙ
+
 import asyncio
 import json
 import os

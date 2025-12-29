@@ -1,4 +1,4 @@
-# zrc/utils/waf_bypass.py — v15.1
+
 import random
 import time
 from typing import Dict, List

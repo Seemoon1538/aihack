@@ -1,4 +1,4 @@
-# src/attacks/mongodb_bruteforce.py — v15.3
+
 import asyncio
 from pymongo import MongoClient
 from typing import Dict, Any

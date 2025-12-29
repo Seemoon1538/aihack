@@ -1,4 +1,4 @@
-# src/utils/helpers.py
+
 import shutil
 import subprocess
 import os
@@ -9,7 +9,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from src.core.logger import RealTimeLogger
 
-# Глобальный логгер
+
 logger = RealTimeLogger('INFO')
 
 class Helpers:
@@ -25,7 +25,7 @@ class Helpers:
         try:
             host = target.split('//')[-1].split('/')[0].split(':')[0]
             if host.endswith('.onion'):
-                return host  # Tor сам разберётся
+                return host 
             return socket.gethostbyname(host)
         except Exception as e:
             raise ValueError(f"Не удалось получить IP для {target}: {e}")

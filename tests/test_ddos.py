@@ -6,7 +6,7 @@ from src.core.config_loader import ConfigLoader
 
 @pytest.fixture
 def config():
-    return ConfigLoader.load('config.yaml')  # Assume exists
+    return ConfigLoader.load('config.yaml')  
 
 @pytest.fixture
 def logger():
@@ -28,6 +28,6 @@ async def test_ddos_attack(config, logger):
 async def test_verify_downtime(config, logger):
     module = DDoSModule(config, logger)
     with patch('subprocess.run') as mock_run:
-        mock_run.return_value.returncode = 1  # Fail = down
+        mock_run.return_value.returncode = 1  
         success = await module._verify_downtime('http://test.com')
         assert success is True

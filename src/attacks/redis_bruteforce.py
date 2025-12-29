@@ -1,4 +1,4 @@
-# src/attacks/redis_bruteforce.py — v15.3
+
 import asyncio
 import redis.asyncio as redis
 from typing import Dict, Any

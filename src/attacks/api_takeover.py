@@ -1,4 +1,4 @@
-# src/attacks/api_takeover.py — v15.4
+
 import asyncio
 from typing import Dict, Any
 from src.core.logger import RealTimeLogger

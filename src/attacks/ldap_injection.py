@@ -1,4 +1,4 @@
-# src/attacks/ldap_injection.py — v15.4
+
 import asyncio
 import httpx
 from typing import Dict, Any

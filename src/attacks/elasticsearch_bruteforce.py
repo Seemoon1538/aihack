@@ -1,4 +1,3 @@
-# src/attacks/elasticsearch_bruteforce.py — v15.3
 import asyncio
 import httpx
 from typing import Dict, Any

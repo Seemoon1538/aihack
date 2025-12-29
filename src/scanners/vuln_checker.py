@@ -1,9 +1,9 @@
 import json
 
 class VulnChecker:
-    OWASP_CHECKLIST = {  # Simplified
+    OWASP_CHECKLIST = {  
         'xss': {'check': lambda resp: '<script>' in resp.text, 'score': 8.0},
-        # Add more
+        
     }
 
     def check_standards(self, result: dict) -> dict:

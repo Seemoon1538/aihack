@@ -1,4 +1,4 @@
-# src/utils/auth_handler.py
+
 from typing import Optional, Dict, Any
 
 class AuthHandler:

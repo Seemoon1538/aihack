@@ -1,4 +1,4 @@
-# src/attacks/smtp_bruteforce.py — v15.4
+
 import asyncio
 import aiosmtplib
 from typing import Dict, Any

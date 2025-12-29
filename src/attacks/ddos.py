@@ -1,4 +1,3 @@
-# src/attacks/ddos.py — v15.5
 import asyncio
 from typing import Dict, Any
 from src.core.logger import RealTimeLogger

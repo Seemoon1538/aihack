@@ -1,4 +1,4 @@
-# src/attacks/sql_injection.py — v15.7 — ПОЛНЫЙ
+
 import asyncio
 import time
 from typing import Dict, Any

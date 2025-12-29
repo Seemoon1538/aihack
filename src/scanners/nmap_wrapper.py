@@ -6,7 +6,7 @@ from src.core.logger import RealTimeLogger
 class NmapWrapper:
     def __init__(self, logger: RealTimeLogger):
         self.logger = logger
-        self.nmap_path = 'nmap'  # Assume in PATH; or 'C:\\Program Files (x86)\\Nmap\\nmap.exe' on Win
+        self.nmap_path = 'nmap' 
 
     def scan_ports(self, target: str, ports: str = '1-1024') -> Dict:
         cmd = [self.nmap_path, '-sV', '-p', ports, target, '-oX', '-']
@@ -15,8 +15,7 @@ class NmapWrapper:
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
             if result.returncode != 0:
                 raise RuntimeError(f"Nmap failed: {result.stderr}")
-            # Parse XML output (simple, or use python-nmap lib)
-            # For simplicity, use python-nmap if installed
+            
             import nmap
             nm = nmap.PortScanner()
             nm.scan(target, ports)
@@ -37,11 +36,11 @@ class NmapWrapper:
             return {'error': str(e)}
 
     def vuln_scan(self, target: str) -> List[Dict]:
-        # NSE scripts for vulns
+        
         cmd = [self.nmap_path, '--script=vuln', target]
         result = subprocess.run(cmd, capture_output=True, text=True)
-        # Parse output for vulns (regex or manual)
-        vulns = []  # e.g., grep-like
+        
+        vulns = []  
         for line in result.stdout.splitlines():
             if 'VULNERABLE' in line.upper():
                 vulns.append({'vuln': line.strip()})

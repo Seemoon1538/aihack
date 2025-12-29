@@ -1,4 +1,4 @@
-# src/attacks/csrf.py — v15.5
+
 from typing import Dict, Any
 from src.core.logger import RealTimeLogger
 

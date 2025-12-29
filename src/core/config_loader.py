@@ -1,4 +1,4 @@
-# zrc/core/config_loader.py — v15.1
+
 import yaml
 import os
 from typing import Dict, Any
@@ -13,13 +13,13 @@ class ConfigLoader:
         with open(config_path, 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f) or {}
 
-        # === ОБЯЗАТЕЛЬНЫЕ ===
+       
         required = ['global', 'target', 'attacks', 'ai']
         for key in required:
             if key not in config:
                 raise ValueError(f"Отсутствует секция: {key}")
 
-        # === ДЕФОЛТЫ ===
+        
         defaults = {
             'global': {'log_level': 'INFO', 'max_threads': 50, 'timeout': 30},
             'attacks': {'dump_db': True, 'evolve_ai': True, 'report': {'json': True, 'md': True, 'html': True, 'pdf': True}},

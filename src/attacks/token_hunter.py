@@ -1,4 +1,4 @@
-# src/attacks/token_hunter.py — ФИКС v15.2
+
 import httpx
 import re
 import asyncio
@@ -29,7 +29,7 @@ class UltimateTokenHunter:
             resp = await self._request(target)
             text = resp.text
 
-            # === ПОИСК ТОКЕНОВ ===
+            
             patterns = {
                 "jwt": r'ey[A-Za-z0-9-_=]+\.ey[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*',
                 "bearer": r'(?i)bearer[\\s:]+([A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.[A-Za-z0-9-_.+/=]*)',

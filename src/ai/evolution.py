@@ -1,4 +1,4 @@
-# zrc/ai/evolution.py — v15.2 — МУТАЦИЯ + КРОССОВЕР
+
 import random
 from typing import List, Dict
 from src.ai.payload_generator import PayloadGenerator
@@ -52,7 +52,6 @@ class EvolutionEngine:
                 p = random.choice(payloads)
                 evolved.append(self._mutate(p))
 
-        # Добавляем из генератора
         attack = previous_results[0].get('attack', 'xss') if previous_results else 'xss'
         gen_payloads = self.payload_gen.all_payloads(lhost="192.168.1.100", lport=4444).get(attack, [])
         evolved.extend(random.sample(gen_payloads, min(5, len(gen_payloads))))

@@ -1,4 +1,3 @@
-# src/core/report.py — v15.7 — ФИНАЛЬНЫЙ
 import json
 import os
 from datetime import datetime

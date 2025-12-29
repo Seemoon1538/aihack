@@ -1,4 +1,4 @@
-# src/core/dispatcher.py — v15.2.1 — ФИКС _run_auto
+
 import asyncio
 from typing import Dict, Any, List, Set
 from src.core.logger import RealTimeLogger
@@ -7,7 +7,7 @@ from src.utils.waf_bypass import WAFBypass
 from src.ai.predictor import Predictor
 from src.ai.payload_generator import PayloadGenerator
 
-# === ОСНОВНЫЕ АТАКИ (8) ===
+
 from src.attacks.token_hunter import UltimateTokenHunter
 from src.attacks.port_scan import PortScanModule
 from src.attacks.sql_injection import SQLInjectionModule
@@ -17,7 +17,7 @@ from src.attacks.ssrf import SSRFModule
 from src.attacks.rce import RCEModule
 from src.attacks.ddos import SmartDDoSModule
 
-# === АВТО-АТАКИ (13) ===
+
 from src.attacks.mysql_bruteforce import MySQLBruteforceModule
 from src.attacks.ssh_bruteforce import SSHBruteforceModule
 from src.attacks.ftp_bruteforce import FTPBruteforceModule
@@ -98,7 +98,7 @@ class AttackDispatcher:
 
         triggered_auto: Set[str] = set()
 
-        # === ПРЕДСКАЗАНИЕ ===
+      
         try:
             resp = await self._request('GET', target)
             features = self.predictor.extract_features(resp.text, resp.status_code, target)
@@ -124,7 +124,7 @@ class AttackDispatcher:
                 }
                 results.append(result)
 
-                # === КОНТЕКСТ ===
+               
                 if name == 'token_hunter' and result.get('success'):
                     token = result.get('token', '')
                     context['tokens'].append(token)

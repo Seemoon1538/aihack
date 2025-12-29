@@ -1,4 +1,4 @@
-# src/ai/db_schemas.py — v16.0
+
 DB_SCHEMAS = {
     "mysql": {
         "tables": ["users", "admin", "customers", "sessions", "tokens", "auth_log"],

@@ -1,4 +1,4 @@
-# config.yaml — v15.2 — АБСОЛЮТ
+
 global:
   log_level: INFO
   max_threads: 50

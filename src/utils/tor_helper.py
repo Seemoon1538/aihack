@@ -1,4 +1,4 @@
-# src/utils/tor_helper.py — v15.2 ФИНАЛ
+
 import httpx
 import asyncio
 from stem import Signal
